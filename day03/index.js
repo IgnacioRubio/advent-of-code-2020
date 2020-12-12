@@ -1,13 +1,13 @@
 const fs = require('fs');
 
-// read input + tranfor
+// read input + transfor
 const input = fs.readFileSync('./input.txt', { encoding: 'utf-8' });
 
 const data = input.split('\n');
 
 
 // call solutions
-// partOne(1, 3);
+partOne(1, 3);
 partTwo();
 
 
